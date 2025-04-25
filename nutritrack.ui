@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="labelTitle">
+      <property name="text">
+       <string>NutriTrack – Hitung Kalori Harianmu</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="formLayout">
+      <item>
+       <layout class="QVBoxLayout" name="leftLayout">
+        <item>
+         <widget class="QLabel" name="label_lineEditNama">
+          <property name="text">
+           <string>Nama Makanan:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="lineEditNama"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_spinBoxKalori">
+          <property name="text">
+           <string>Kalori (kkal):</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="spinBoxKalori"/>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_comboBoxKategori">
+          <property name="text">
+           <string>Kategori:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBoxKategori"/>
+        </item>
+        <item>
+         <widget class="QCheckBox" name="checkBoxSehat">
+          <property name="text">
+           <string>Makanan Sehat</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSlider" name="sliderKenyang">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_sliderKenyang">
+          <property name="text">
+           <string>Tingkat Kenyang:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="buttonTambah">
+          <property name="text">
+           <string>Tambah Makanan</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="rightLayout">
+        <item>
+         <widget class="QLabel" name="labelDaftar">
+          <property name="text">
+           <string>Daftar Makanan Hari Ini:</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QTableWidget" name="tableWidget"/>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelTotalKalori">
+      <property name="text">
+       <string>Total Kalori: 0 kkal</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelIdentity">
+      <property name="text">
+       <string>Nama: Cindy Aulia Rahmani | NIM: F1D022116</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
